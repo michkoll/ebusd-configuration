@@ -7,7 +7,7 @@ r,,State,,,,,07,energy,,UCH,,,,,,energy,,kWh,,onoff,,UCH,0=off;1=on,,,state,,UCH
 w,,ReadLiveMonitor,Payload needed sent: FF321f=desired supply (D2C);FF3220=current supply (D2C);FF3224=current power consumption (UIN);FF3223=power generated (UIN);FF3225=Modulation (D1B);FF3226=Air intake (D2C),,,,,,m,HEX:3,,,,,,,,,,,,,,,,,,,,,
 r,,LiveMonitorDesiredSupply,D2C,,,,FF321f,,,IGN:3,,,,temperature,,D2C,,°C,,,,,,,,,,,,,
 r,,LiveMonitorCurrentSupply,D2C,,,,FF3220,,,IGN:3,,,,temperature,,D2C,,°C,,,,,,,,,,,,,
-r1,,EnergyIntegral,,,,,21,,,integral,,°min,aktuelles Energieintegral in °min,,,,,,,,,,,,,,,,,,
+r1,,EnergyIntegral,,,,,FF3221,,,integral,,°min,aktuelles Energieintegral in °min,,,,,,,,,,,,,,,,,,
 r,,LiveMonitorPowerConsumption,UIN,,,,FF3224,,,IGN:3,,,,,,energy,10,kW,,,,,,,,,,,,,
 r,,LiveMonitorPowerGenerated,UIN,,,,FF3223,,,IGN:3,,,,,,energy,10,kW,,,,,,,,,,,,,
 r,,LiveMonitorCompressorModulation,D1B,,,,FF3225,,,IGN:3,,,,percentage,,D1B,,,,,,,,,,,,,,,
