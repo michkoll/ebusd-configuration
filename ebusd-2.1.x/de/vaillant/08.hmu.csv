@@ -17,7 +17,7 @@ r1,,LiveMonitorPowerConsumption,,,,,FF3224,,,D1B,10,kW,aktueller Stromverbrauch 
 r1,,LiveMonitorCompressorModulation,,,,,FF3225,,,D2C,,%,aktuelle Kompressorauslastung in Prozent,,,,,,,,,,,,,,,,,,
 r1,,LiveMonitorAirIntake,D1B,,,,FF3226,,,IGN:3,,,,temperature,,SIN,16,°C,,,,,,,,,,,,,
 r,,CompressorHours,,,,,FF3400,,,IGN:3,,,,,,UIN,,hours,,,,,,,,,,,,,
-r,,CompressorStarts,,,,,FF3401,,,IGN:2,,,,,,UIN,,,,,,,,,,,,,,,
+r,,CompressorStarts,,,,,FF3401,,,,,,,,,UIN,,,,,,,,,,,,,,,
 r,,BuildingPumpHours,,,,,FF3402,,,IGN:3,,,,,,UIN,,hours,,,,,,,,,,,,,
 r,,BuildingPumpStarts,,,,,FF3403,,,IGN:3,,,,,,UIN,,,,,,,,,,,,,,,
 # Total heating yields,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
