@@ -8,11 +8,11 @@ r,,EnergyCool,,,,,FF3201,,,energy,,,,,,,,,,,,,,,,,,,,,
 r,,Hours,,,,,FF3240,,,energy,,,,,,,,,,,,,,,,,,,,,
 r,,HoursHc,,,,,FF3241,,,energy,,,,,,,,,,,,,,,,,,,,,
 r,,HoursCool,,,,,FF3243,,,energy,,,,,,,,,,,,,,,,,,,,,
-### Livemonitor
-# Gebäude Wasserdruck
-# Gebäudekreis Durchfluss
-# Sperrzeit Kompressor
-# Sperrzeit Heizstab
+# Livemonitor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Gebäude Wasserdruck,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Gebäudekreis Durchfluss,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Sperrzeit Kompressor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Sperrzeit Heizstab,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 r,,LiveMonitorDesiredSupply,D2C,,,,FF321f,,,,,,Vorlaufsolltemperatur,temperature,,D2C,,°C,,,,,,,,,,,,,
 r,,LiveMonitorCurrentSupply,D2C,,,,FF3220,,,,,,aktuelle Vorlauftempteratur,temperature,,D2C,,°C,,,,,,,,,,,,,
 r1,,LiveMonitorEnergyIntegral,,,,,FF3221,,,integral,,°min,aktuelles Energieintegral in °min,,,,,,,,,,,,,,,,,,
@@ -20,10 +20,10 @@ r1,,LiveMonitorPowerGenerated,,,,,FF3223,,,D1B,10,kW,aktuell gewonnene Energie a
 r1,,LiveMonitorPowerConsumption,,,,,FF3224,,,D1B,10,kW,aktueller Stromverbrauch der Wärmepumpe in kW - elektrische Leistungsaufnahme,,,,,,,,,,,,,,,,,,
 r1,,LiveMonitorCompressorModulation,,,,,FF3225,,,D2C,,%,aktuelle Kompressorauslastung in Prozent,,,,,,,,,,,,,,,,,,
 r1,,LiveMonitorAirIntake,D1B,,,,FF3226,,,,,,Lufteinlasstemperatur,temperature,,SIN,16,°C,,,,,,,,,,,,,
-# Heizstab Leistung
-# Status Fremdstromanode
-# Außentemperatur
-### Fachhandwerkerebene-Testmenue-Statistiken
+# Heizstab Leistung,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Status Fremdstromanode,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Außentemperatur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Fachhandwerkerebene-Testmenue-Statistiken,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 r,,CompressorHours,,,,,FF3400,,,,,,Kompressor Stunden,,,UIN,,hours,,,,,,,,,,,,,
 r,,CompressorStarts,,,,,FF3401,,,,,,Kompressor Starts,,,UIN,,,,,,,,,,,,,,,
 r,,BuildingPumpHours,,,,,FF3402,,,,,,Gebäudepumpe Stunden,,,UIN,,hours,,,,,,,,,,,,,
