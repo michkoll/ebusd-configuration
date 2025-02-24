@@ -13,6 +13,7 @@ r,,HoursCool,,,,,FF3243,,,energy,,,,,,,,,,,,,,,,,,,,,
 # Gebäudekreis Durchfluss,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # Sperrzeit Kompressor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # Sperrzeit Heizstab,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Test
 r,,LiveMonitorDesiredSupply,D2C,,,,FF321f,,,,,,Vorlaufsolltemperatur,temperature,,D2C,,°C,,,,,,,,,,,,,
 r,,LiveMonitorCurrentSupply,D2C,,,,FF3220,,,,,,aktuelle Vorlauftempteratur,temperature,,D2C,,°C,,,,,,,,,,,,,
 r1,,LiveMonitorEnergyIntegral,,,,,FF3221,,,integral,,°min,aktuelles Energieintegral in °min,,,,,,,,,,,,,,,,,,
