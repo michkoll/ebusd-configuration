@@ -8,18 +8,38 @@ r,,EnergyCool,,,,,FF3201,,,energy,,,,,,,,,,,,,,,,,,,,,
 r,,Hours,,,,,FF3240,,,energy,,,,,,,,,,,,,,,,,,,,,
 r,,HoursHc,,,,,FF3241,,,energy,,,,,,,,,,,,,,,,,,,,,
 r,,HoursCool,,,,,FF3243,,,energy,,,,,,,,,,,,,,,,,,,,,
-# some more statistics from Live Monitor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-r,,LiveMonitorDesiredSupply,D2C,,,,FF321f,,,,,,,temperature,,D2C,,°C,,,,,,,,,,,,,
-r,,LiveMonitorCurrentSupply,D2C,,,,FF3220,,,,,,,temperature,,D2C,,°C,,,,,,,,,,,,,
+### Livemonitor
+# Gebäude Wasserdruck
+# Gebäudekreis Durchfluss
+# Sperrzeit Kompressor
+# Sperrzeit Heizstab
+r,,LiveMonitorDesiredSupply,D2C,,,,FF321f,,,,,,Vorlaufsolltemperatur,temperature,,D2C,,°C,,,,,,,,,,,,,
+r,,LiveMonitorCurrentSupply,D2C,,,,FF3220,,,,,,aktuelle Vorlauftempteratur,temperature,,D2C,,°C,,,,,,,,,,,,,
 r1,,LiveMonitorEnergyIntegral,,,,,FF3221,,,integral,,°min,aktuelles Energieintegral in °min,,,,,,,,,,,,,,,,,,
-r1,,LiveMonitorPowerGenerated,,,,,FF3223,,,D1B,10,kW,aktuell gewonnene Energie aus der Umwelt in kW,,,,,,,,,,,,,,,,,,
-r1,,LiveMonitorPowerConsumption,,,,,FF3224,,,D1B,10,kW,aktueller Stromverbrauch der Wärmepumpe in kW,,,,,,,,,,,,,,,,,,
+r1,,LiveMonitorPowerGenerated,,,,,FF3223,,,D1B,10,kW,aktuell gewonnene Energie aus der Umwelt in kW - Kaelteleistung,,,,,,,,,,,,,,,,,,
+r1,,LiveMonitorPowerConsumption,,,,,FF3224,,,D1B,10,kW,aktueller Stromverbrauch der Wärmepumpe in kW - elektrische Leistungsaufnahme,,,,,,,,,,,,,,,,,,
 r1,,LiveMonitorCompressorModulation,,,,,FF3225,,,D2C,,%,aktuelle Kompressorauslastung in Prozent,,,,,,,,,,,,,,,,,,
-r1,,LiveMonitorAirIntake,D1B,,,,FF3226,,,,,,,temperature,,SIN,16,°C,,,,,,,,,,,,,
-r,,CompressorHours,,,,,FF3400,,,,,,,,,UIN,,hours,,,,,,,,,,,,,
-r,,CompressorStarts,,,,,FF3401,,,,,,,,,UIN,,,,,,,,,,,,,,,
-r,,BuildingPumpHours,,,,,FF3402,,,,,,,,,UIN,,hours,,,,,,,,,,,,,
-r,,BuildingPumpStarts,,,,,FF3403,,,,,,,,,UIN,,,,,,,,,,,,,,,
+r1,,LiveMonitorAirIntake,D1B,,,,FF3226,,,,,,Lufteinlasstemperatur,temperature,,SIN,16,°C,,,,,,,,,,,,,
+# Heizstab Leistung
+# Status Fremdstromanode
+# Außentemperatur
+### Fachhandwerkerebene-Testmenue-Statistiken
+r,,CompressorHours,,,,,FF3400,,,,,,Kompressor Stunden,,,UIN,,hours,,,,,,,,,,,,,
+r,,CompressorStarts,,,,,FF3401,,,,,,Kompressor Starts,,,UIN,,,,,,,,,,,,,,,
+r,,BuildingPumpHours,,,,,FF3402,,,,,,Gebäudepumpe Stunden,,,UIN,,hours,,,,,,,,,,,,,
+r,,BuildingPumpStarts,,,,,FF3403,,,,,,Gebäudepumpe Starts,,,UIN,,,,,,,,,,,,,,,
+r,,4PortValveHours,,,,,FF3406,,,,,,4-Wege-Ventil Stunden,,,UIN,,hours,,,,,,,,,,,,,
+r,,4PortValveSwitches,,,,,FF3407,,,,,,4-Wege-Ventil Starts,,,UIN,,,,,,,,,,,,,,,
+r,,EEVSteps,,,,,FF340D,,,,,,EEV Schritte,,,UIN,,,,,,,,,,,,,,,
+r,,NoOfSwitchingOps,,,,,FF3430,,,,,,Schaltvorgaenge VUV Warmwasser,,,UIN,,,,,,,,,,,,,,,
+r,,Fan1OperHours,,,,,FF3451,,,,,,,,,UIN,,hours,,,,,,,,,,,,,
+r,,Fan1Starts,,,,,FF3452,,,,,,,,,UIN,,,,,,,,,,,,,,,
+r,,Fan2OperHours,,,,,FF345E,,,,,,,,,UIN,,hours,,,,,,,,,,,,,
+r,,Fan2Starts,,,,,FF345F,,,,,,,,,UIN,,,,,,,,,,,,,,,
+# Stromverbrauch Heizstab gesamt
+# Betriebsstunden Heizstab
+# Schaltvorgaenge Heizstab
+# Anzahl Einschaltvorgänge
 # Total heating yields,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 *r,,,,,,"B516","18",,,IGN:1,,,,,,,,,,,,,,,,,,,,,
 r,,YieldTotal,,,,,01,,,energy,,,,,,,,,,,,,,,,,,,,,
